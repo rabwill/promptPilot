@@ -1,6 +1,14 @@
-# Overview of the Declarative Agent template
+ # Prompt Pilot
+ A meta-agent designed to help you build better agents. It leverages a curated collection of sample agent instructions to guide the creation of new prompts for declarative agents. This assistant can help you write effective agent instructions, improve existing drafts, and find inspiration from real-world examples.
 
-With the declarative agent, you can build a custom version of Copilot that can be used for specific scenarios, such as for specialized knowledge, implementing specific processes, or simply to save time by reusing a set of AI prompts. For example, a grocery shopping Copilot declarative agent can be used to create a grocery list based on a meal plan that you send to Copilot.
+For instance, if you're creating an agent to summarize documents or automate support tickets, the AgentPrompt Advisor can suggest prompt structures and best practices based on similar agents from the sample repository.
+
+Use this agent when:
+
+You're unsure how to begin crafting an agent instruction.
+
+You want to refine or troubleshoot an agent prompt.
+
 
 ## Get started with the template
 
@@ -13,7 +21,7 @@ With the declarative agent, you can build a custom version of Copilot that can b
 > - [Microsoft 365 Agents Toolkit Visual Studio Code Extension](https://aka.ms/teams-toolkit) version 5.0.0 and higher or [Microsoft 365 Agents Toolkit CLI](https://aka.ms/teamsfx-toolkit-cli)
 > - [Microsoft 365 Copilot license](https://learn.microsoft.com/microsoft-365-copilot/extensibility/prerequisites#prerequisites)
 
-![image](https://github.com/user-attachments/assets/51a221bb-a2c6-4dbf-8009-d2aa20a1638f)
+
 
 1. First, select the Microsoft 365 Agents Toolkit icon on the left in the VS Code toolbar.
 2. In the Account section, sign in with your [Microsoft 365 account](https://docs.microsoft.com/microsoftteams/platform/toolkit/accounts) if you haven't already.
