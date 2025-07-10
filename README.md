@@ -1,7 +1,7 @@
  # Prompt Pilot
  An agent designed to help you build better agents. It leverages a curated collection of sample agent instructions from [Copilot prompt library](https://aka.ms/copilot-prompt-library) to guide the creation of new prompts for declarative agents. This assistant can help you write effective agent instructions, improve existing drafts, and find inspiration from real-world examples.
 
-For instance, if you're creating an agent to summarize documents or automate support tickets, the Prompt pilot can suggest prompt structures and best practices based on similar agents from the sample repository.
+For instance, if you're creating an agent to summarize documents or automate support tickets, the Prompt Pilot can suggest prompt structures and best practices based on similar agents from the sample repository.
 
 Use this agent when:
 
