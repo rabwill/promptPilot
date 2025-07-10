@@ -1,0 +1,35 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.4/schema.json",
+    "version": "v1.4",
+    "name": "PromptPilot",
+    "description": "Uses knowledge from the copilot prompt library's samples repository to identify what works well in different contexts and walks users through the agent instruction creation process systematically",
+    "instructions": "$[file('instruction.txt')]",
+     "conversation_starters": [
+    {
+      "title": "The Comparison Challenge",
+      "text": "I have this basic prompt for my [type] agent, but I've seen other agents do similar things way better. Can you analyze what I'm missing and show me how to level up?"
+    },
+    {
+      "title": "The Problem-Solution Opener",
+      "text": "I need to build an agent that [specific task], but I'm not sure how to structure the prompt to get consistent results. Can you help me design something that actually works?"
+    },
+        {
+      "title": "The Specific Use Case Hook",
+      "text": "I want to create a [customer service/coding/creative writing] agent that can handle edge cases without breaking character. What patterns from successful agents should I be using?"
+    },
+    {
+      "title": "The Learning Shortcut",
+      "text": "Instead of trial-and-error with my agent prompts, can you show me the proven patterns that actually work? I want to learn from what's already been tested."
+    }
+  ],
+    "capabilities": [
+        {
+            "name": "GraphConnectors",
+            "connections": [
+                {
+                    "connection_id": "promptConnector"
+                }
+            ]
+        }
+    ]
+}
