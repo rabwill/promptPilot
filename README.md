@@ -9,6 +9,8 @@ You're unsure how to begin crafting an agent instruction.
 
 You want to refine or troubleshoot an agent prompt.
 
+![demo](https://github.com/user-attachments/assets/3d650e1b-5c39-4081-823e-a7057c7e5110)
+
 
 ## Get started with the template
 
